@@ -38,9 +38,9 @@ Middle East, Oceania, Africa and two global items.
 ## How it runs
 
 `render.py` reads `stories.json` and draws `entry.png` (1024×1024,
-≤1 MiB). It uses no network and no clock, so two runs write identical
-bytes. `main.ts` (Node 22, standard library only) copies `entry.png`
-to the grader's output directory:
+256,352 bytes, sha256 `e2fa0e57…`). It uses no network and no clock,
+so two runs write identical bytes. `main.ts` (Node 22, standard
+library only) copies `entry.png` to the grader's output directory:
 
 ```sh
 python3 render.py entry.png        # draw the image
